@@ -1,0 +1,18 @@
+/* 
+components are CardList, SeachBox, Scroll 
+y los containers son los componentes peque;os que tienen state en ellos, los que tienen los lifecycle hooks y que tienen class syntax. con estos no se puede hacer una pure function porque con ellos necesitamos estar haciendo request to outside world.
+
+lifecycle hooks son los ciclos de react, estos son render, luego componentDidMount, etc.
+*/
+
+
+en packet.json tenemos: "npm run build" mete todo el codigo en la carpeta build. lo optimiza y solo tienes que usar esta carpeta para correr tu codigo en modo produccion
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+
+  OOJO PURE FUNCTION RECIBEN algo y retornan siempre lo mismo y es predecible.!
